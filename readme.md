@@ -5,7 +5,7 @@ About
 -----
 
 * by Casey McLaughlin  (http://www.caseyamcl.com)
-* Version: 1.1 released 2011 Sep 29
+* Last Stable Version: 1.1 released 2011 Sep 29
 * Check for updates at: http://github.com/caseyamcl/quickjump
 
 This is a theme for the popular open-sourcewiki software, "DokuWiki", which you can explore at http://dokuwiki.org.
