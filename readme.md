@@ -4,7 +4,7 @@
 ------------------------------------------------------
 
  Version: 1.0 released 2009 Jun 16
- Check for updates at: http://www.caseyamcl.com/resources/ignitedTheme
+ Check for updates at: http://github.com/caseyamcl/quickjump
  
  Recommended:
  
@@ -24,13 +24,14 @@ ABOUT
  The goal of this theme is to present an interface for Dokuwiki 
  that is:
  
-   * Standards compliant (XHTML strict /CSS 2.1) 
+   * Standards compliant (HTML5 /CSS 2.1) 
    * Highly usable
    * Simple to navigate and understand
    * Easy to customize
    * Compatible across popular browsers
  
- This theme was originally designed for the FSU College of Information.
+ This theme was originally designed for the Florida State University
+ College of Communication and Information
  
  
  
@@ -38,12 +39,6 @@ ABOUT
  LICENSE
  -----------------------------------------------------
  
- This work is Public Domain.  Do what you will with it!
+ This work is licensed under the BSD License (version 1.1 and newer)
  
- This work is hereby released into the Public Domain. To view a
- copy of the public domain dedication, visit http://creativecommons.org/licenses/publicdomain/
- or send a letter to
- 
- Creative Commons
- 171 Second Street, Suite 300
- San Francisco, California, 94105, USA.
+ http://www.opensource.org/licenses/bsd-license.php
