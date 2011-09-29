@@ -25,12 +25,12 @@ body {
 }
 
 #top_header {
-	min-height					: 50px;
-	margin							: 0px;
-	padding							: 0px;
-	width								: 100%;
-	background-color		: #999;
-	border-bottom				: 4px solid #444;
+	min-height: 50px;
+	margin: 0px;
+	padding	: 0px;
+	width: 100%;
+	background-color		: #e5e5e5;
+	border-bottom				: 2px solid #444;
 }
 
 #top_header > h1 {
@@ -59,16 +59,28 @@ body {
 }
 
 #toc_area {
-	background-color	: #444;
-	color							: #FFF;
-	width							: 100%;
-	margin						: 0px;
-	padding						: 0px;
-	display						: none;
+	background-color: #444;
+	color: #FFF;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: none;
 }
 
-#toc_area > p:first-child {
-	display						: none;
+#toc_area #toc_inner {
+	margin: 0;
+	padding: 8px 16px;
+}
+
+#toc_area .secedit2 {
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 2px 5px !important;
+	background-color: #999;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 0.8em;
 }
 
 #toc_area > p {
@@ -131,15 +143,16 @@ body {
 }
 
 #toc_toggle > a {
-	margin						: 0px;
-	margin-left				: 80%;
-	border						: 1px solid #444;
-	color							: #FFF;
-	text-decoration		: none;
-	background-color	: #444;
-	border-top				: none;
-	display						: inline-block;
-	padding						: 2px 5px;
+	margin: 0px;
+	margin-left: 80%;
+	border: 1px solid #444;
+	color : #FFF;
+	text-decoration	: none;
+	background-color : #444;
+	border-top : none;
+	display : inline-block;
+	padding	: 2px 5px;
+	border-radius: 0 0 8px 8px;
 }
 
 #main_pane {
@@ -153,12 +166,30 @@ body {
 	border-bottom			: 1px solid #E4E4E4;
 }
 
-#main_pane > #main_pane_header form {
-	display						: inline;
+#main_pane > #main_pane_header form#search {
+	display: block;
+	float: right;
+}
+
+#main_pane > #main_pane_header form#search input {
+	float: none;
+}
+
+#main_pane > #main_pane_header form#search input[type=submit] {
+	padding: 0;
+	margin: 1px;
+	font-size: 1.5em;
+	background-color: #E5E5E5;
+	border-radius: 20px;
+}
+
+#main_pane > #main_pane_header form#search input[type=submit]:active {
+	color: #FFF;
+	background-color: #111;
 }
 
 #main_pane > #main_pane_header input#navSearch {
-	color							: #999;
+	color: #999;
 }
 
 #main_pane > #main_pane_header input.button,
@@ -174,6 +205,7 @@ body {
 }
 
 #footer {
+	color: #444;
 	margin						: 20px auto;
 	width							: 90%;
 	border-top				: 1px solid #E4E4E4;
@@ -246,6 +278,20 @@ body {
 #content .page #draft__status { width: 100%; margin: 15px 0px; font-weight: bold; color: #42A90F; }
 #content .page #tool__bar .toolbutton { margin: 1px; padding: 3px; }
 #content .page #dw__editform #wiki__text { width: 99%; float: left; background-color: #F5F5F5; font-family: "Courier New", "Courier New", Courier, monospace; }
+
+#content .page #dw__editform #size__ctl img { cursor: pointer; margin-right: 8px; }
+
+#content .page #dw__editform .license {
+	display: block;
+	clear: both;
+	color: #333;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+#content .page #dw__editform .license a {
+	color: #333;
+}
 
 #content .page #dw__login fieldset { border: none; }
 #content .page #dw__login legend { display: none; }

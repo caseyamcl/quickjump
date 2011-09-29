@@ -12,7 +12,7 @@ This is a theme for the popular open-sourcewiki software, "DokuWiki", which you 
 
 The goal of this theme is to present an interface for Dokuwiki that is:
  
-* Standards compliant (HTML5 /CSS 2.1) 
+* Standards compliant (HTML5 /CSS3) 
 * Highly usable
 * Simple to navigate and understand
 * Easy to customize

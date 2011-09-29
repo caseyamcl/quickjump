@@ -9,7 +9,7 @@
           </ul>
           
           <p>
-            Install the <a href="http://www.dokuwiki.org/plugin:display_wiki_page">Display_wiki_page plugin</a> to
+            Install the <a href="http://www.dokuwiki.org/plugin:displaywikipage">Display_wiki_page plugin</a> to
             add better functionality to this box.  Once you install the plugin, it will turn this into an editable
             sidebar.  It all happens automatically once the plugin is installed!
           </p>          
