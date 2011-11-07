@@ -1,4 +1,4 @@
-"Ignited" Theme for DokuWiki
+"Quickjump" Theme for DokuWiki
 ============================
 
 About
